@@ -7,6 +7,7 @@ import Result from "./Quiz/Result";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import NewHomePage from "./NewHomePage/NewHomePage";
+import YogaMeditationPage from "./Relax/YogaMeditationPage";
 
 function QuizHome() {
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -68,70 +69,79 @@ function QuizHome() {
       <Router>
         <Navbar />
         <Routes>
-          <Route 
-          exact
-          path="/"
-          element={
-              <NewHomePage/> 
+
+          <Route
+            exact
+            path="/"
+            element={
+              <NewHomePage />
             }
-            />
-        <Route
-          exact
-          path="/Homepage"
-          element={
-            <Homepage
-              name={name}
-              setName={setName}
-              selectedEducation={selectedEducation}
-              setSelectedEducation={setSelectedEducation}
-            />
-          }
-        />
+          />
+          <Route
+            exact
+            path="/meditate"
+            element={
+              <YogaMeditationPage />
+            }
+          />
 
-        {/* START COMPONENT */}
-        <Route
-          exact
-          path="/start"
-          element={
-            <Start startQuiz={startQuiz} showStart={showStart} name={name} />
-          }
-        />
+          <Route
+            exact
+            path="/Homepage"
+            element={
+              <Homepage
+                name={name}
+                setName={setName}
+                selectedEducation={selectedEducation}
+                setSelectedEducation={setSelectedEducation}
+              />
+            }
+          />
 
-        {/* QUIZ COMPONENT */}
-        <Route
-          exact
-          path="/quiz"
-          element={
-            <Quiz
-              setSelectedEducation={setSelectedEducation}
-              selectedEducation={selectedEducation}
-              collectedAnswers={collectedAnswers}
-              storeAnswer={storeAnswer}
-              showQuiz={showQuiz}
-              checkAnswer={checkAnswer}
-              selectedAnswer={selectedAnswer}
-              setSelectedAnswer={setSelectedAnswer}
-              questionIndex={questionIndex}
-              nextQuestion={nextQuestion}
-              showTheResult={showTheResult}
-            />
-          }
-        />
+          {/* START COMPONENT */}
+          <Route
+            exact
+            path="/start"
+            element={
+              <Start startQuiz={startQuiz} showStart={showStart} name={name} />
+            }
+          />
 
-        {/* RESULT COMPONENT */}
-        <Route
-          exact
-          path="/result"
-          element={
-            <Result
-              collectedAnswers={collectedAnswers}
-              selectedEducation={selectedEducation}
-            />
-          }
-        />
-        
-      </Routes>
-    </Router>
+          {/* QUIZ COMPONENT */}
+          <Route
+            exact
+            path="/quiz"
+            element={
+              <Quiz
+                setSelectedEducation={setSelectedEducation}
+                selectedEducation={selectedEducation}
+                collectedAnswers={collectedAnswers}
+                storeAnswer={storeAnswer}
+                showQuiz={showQuiz}
+                checkAnswer={checkAnswer}
+                selectedAnswer={selectedAnswer}
+                setSelectedAnswer={setSelectedAnswer}
+                questionIndex={questionIndex}
+                nextQuestion={nextQuestion}
+                showTheResult={showTheResult}
+              />
+            }
+          />
+
+          {/* RESULT COMPONENT */}
+          <Route
+            exact
+            path="/result"
+            element={
+              <Result
+                collectedAnswers={collectedAnswers}
+                selectedEducation={selectedEducation}
+              />
+            }
+          />
+
+        </Routes>
+      </Router>
     </div >
   );
 }

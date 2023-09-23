@@ -29,17 +29,20 @@ export default function Navbar() {
                   Home
                 </Link>
               </li>
-
               <li className="nav-item">
                 <Link className="nav-link active" to="/homepage">
                   Quiz
+                </Link>
+              </li>
+              <li>
+                <Link className="nav-link active" to="/meditate">
+                  Meditate
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to="/homepage">
                   About Us
                 </Link>
-
               </li>
             </ul>
           </div>

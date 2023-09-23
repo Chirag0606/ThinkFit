@@ -1,0 +1,70 @@
+.yoga-meditation-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff; /* White text color */
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-button,
+.pause-button,
+.stop-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff; /* White text color */
+  border: none;
+  cursor: pointer;
+}
+
+.start-button:hover,
+.pause-button:hover,
+.stop-button:hover {
+  background-color: #0056b3;
+}
+
+.asana-container {
+  text-align: center;
+}
+
+.yoga-asana-image {
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+.yoga-asana-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* White text color */
+  margin-bottom: 20px;
+}
