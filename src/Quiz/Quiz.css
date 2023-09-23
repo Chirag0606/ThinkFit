@@ -1,0 +1,105 @@
+/* Quiz.css */
+
+/* Styles for the overall quiz container */
+.quiz {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Styles for the question component */
+.question {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.question h2 {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.option:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.next-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Styles for the result component */
+.result {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.restart-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.restart-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* ... (other styles if needed) */

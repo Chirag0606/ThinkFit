@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand bg-dark-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src="logox.png" alt="Logo" />
+            <img src="t_img.png" alt="Logo" />
           </a>
           <button
             className="navbar-toggler"
@@ -24,14 +25,16 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/about">
-                  About Us
-                </a>
+
+              <li>
+                <Link className="nav-link active" to="/homepage">
+                  Quiz
+                </Link>
+
               </li>
             </ul>
           </div>

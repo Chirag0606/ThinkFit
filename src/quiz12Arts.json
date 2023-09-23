@@ -1,0 +1,497 @@
+[
+  {
+    "id": "01",
+    "question": "What type of reading material do you enjoy the most?",
+    "options": [
+      "Philosophy and essays",
+      "Novels and literature",
+      "Biographies and real-life stories",
+      "Magazines and artistic journals"
+    ]
+  },
+  {
+    "id": "02",
+    "question": "Which activity do you find most engaging?",
+    "options": [
+      "Engaging in deep discussions and debates",
+      "Analyzing and interpreting various forms of art",
+      "Understanding and connecting with people's emotions",
+      "Creating visual arts or performances"
+    ]
+  },
+  {
+    "id": "03",
+    "question": "What motivates you to express yourself?",
+    "options": [
+      "Sharing your thoughts on important societal issues",
+      "Telling stories and conveying emotions through words",
+      "Understanding different perspectives and cultures",
+      "Expressing yourself through various artistic mediums"
+    ]
+  },
+  {
+    "id": "04",
+    "question": "Which historical period or cultural movement interests you the most?",
+    "options": [
+      "Enlightenment and philosophical ideas",
+      "Romanticism and literary exploration",
+      "Civil rights movements and social change",
+      "Renaissance and artistic creativity"
+    ]
+  },
+  {
+    "id": "05",
+    "question": "How do you feel about working in collaborative settings?",
+    "options": [
+      "Enjoy collaborating and exchanging ideas with peers",
+      "Prefer working independently on your creative projects",
+      "Value teamwork and empathetic communication",
+      "Collaborate in artistic endeavors for unique outcomes"
+    ]
+  },
+  {
+    "id": "06",
+    "question": "What type of writing appeals to you?",
+    "options": [
+      "Essays that explore abstract concepts",
+      "Fictional stories with intricate characters",
+      "Personal narratives and life experiences",
+      "Poetry that evokes emotions and imagery"
+    ]
+  },
+  {
+    "id": "07",
+    "question": "Which subject excites you the most?",
+    "options": [
+      "Philosophy and ethics",
+      "Literature and literary analysis",
+      "Psychology and human behavior",
+      "Visual or performing arts"
+    ]
+  },
+  {
+    "id": "08",
+    "question": "What kind of impact would you like to make with your career?",
+    "options": [
+      "Shaping intellectual discourse and critical thinking",
+      "Inspiring and moving people through your writing",
+      "Contributing to mental health and well-being",
+      "Enriching the world with creative expressions"
+    ]
+  },
+  {
+    "id": "09",
+    "question": "How do you handle ambiguity and complex ideas?",
+    "options": [
+      "Enjoy delving into abstract concepts and debating them",
+      "Prefer exploring and interpreting various forms of art",
+      "Empathize with diverse viewpoints and experiences",
+      "Use creativity to communicate and simplify complex ideas"
+    ]
+  },
+  {
+    "id": "10",
+    "question": "What kind of art forms interest you the most?",
+    "options": [
+      "Architecture and design",
+      "Literature and poetry",
+      "Theater and performing arts",
+      "Visual arts and painting"
+    ]
+  },
+  {
+    "id": "11",
+    "question": "What type of career events or workshops would you attend willingly?",
+    "options": [
+      "Philosophical debates and intellectual discussions",
+      "Writing workshops and literary festivals",
+      "Empathy-building and communication skills workshops",
+      "Art exhibitions and creative workshops"
+    ]
+  },
+  {
+    "id": "12",
+    "question": "Which quote resonates with you the most?",
+    "options": [
+      "\"The only true wisdom is in knowing you know nothing.\" - Socrates",
+      "\"The world is a book, and those who do not travel read only one page.\" - Augustine of Hippo",
+      "\"In a gentle way, you can shake the world.\" - Mahatma Gandhi",
+      "\"Every artist was first an amateur.\" - Ralph Waldo Emerson"
+    ]
+  },
+  {
+    "id": "13",
+    "question": "What drives you to explore the humanities and arts?",
+    "options": [
+      "Seeking the deeper meaning of existence and ideas",
+      "Unleashing your creativity through words or visuals",
+      "Understanding human experiences and emotions",
+      "Expressing your unique perspective on the world"
+    ]
+  },
+  {
+    "id": "14",
+    "question": "How do you approach interpreting works of art?",
+    "options": [
+      "Analyze the symbolism and underlying messages",
+      "Connect emotionally with the characters and themes",
+      "Consider the historical and cultural context",
+      "Appreciate the aesthetics and visual elements"
+    ]
+  },
+  {
+    "id": "15",
+    "question": "What is your preferred way of conveying a message?",
+    "options": [
+      "Through well-reasoned arguments and debates",
+      "Through beautifully crafted stories and narratives",
+      "Through understanding and empathetic communication",
+      "Through visually captivating artworks and performances"
+    ]
+  },
+  {
+    "id": "16",
+    "question": "Which of the following values do you prioritize the most?",
+    "options": [
+      "Intellectual curiosity and exploration",
+      "Emotional depth and creativity",
+      "Empathy and understanding",
+      "Aesthetic appreciation and innovation"
+    ]
+  },
+  {
+    "id": "17",
+    "question": "When facing a problem, what's your instinctive approach?",
+    "options": [
+      "Analyzing it from multiple angles",
+      "Crafting a narrative around it",
+      "Connecting with people involved",
+      "Expressing it through art or design"
+    ]
+  },
+  {
+    "id": "18",
+    "question": "Which of these historical figures inspires you the most?",
+    "options": [
+      "Voltaire",
+      "William Shakespeare",
+      "Frida Kahlo",
+      "Leonardo da Vinci"
+    ]
+  },
+  {
+    "id": "19",
+    "question": "What do you enjoy doing in your free time?",
+    "options": [
+      "Engaging in philosophical discussions",
+      "Reading novels or poetry",
+      "Listening to people's life stories",
+      "Creating art or craft projects"
+    ]
+  },
+  {
+    "id": "20",
+    "question": "Which film genre resonates with you the most?",
+    "options": [
+      "Documentary and informative films",
+      "Drama and character-driven stories",
+      "Psychological and emotional narratives",
+      "Visually stunning and artistic films"
+    ]
+  },
+  {
+    "id": "21",
+    "question": "How do you handle criticism or feedback?",
+    "options": [
+      "Analyze it objectively and use it to improve",
+      "Reflect on the emotional impact it has",
+      "Consider the perspective of the giver",
+      "Use creativity to respond constructively"
+    ]
+  },
+  {
+    "id": "22",
+    "question": "Which literary movement interests you?",
+    "options": [
+      "Existentialism",
+      "Romanticism",
+      "Postcolonialism",
+      "Surrealism"
+    ]
+  },
+  {
+    "id": "23",
+    "question": "In a group project, what role do you naturally take on?",
+    "options": [
+      "The critical thinker and problem solver",
+      "The storyteller and communicator",
+      "The mediator and empathetic listener",
+      "The artist or designer"
+    ]
+  },
+  {
+    "id": "24",
+    "question": "What kind of conversations do you enjoy the most?",
+    "options": [
+      "Philosophical debates",
+      "Literary analysis and book discussions",
+      "Personal life experiences and emotions",
+      "Artistic inspirations and visual aesthetics"
+    ]
+  },
+  {
+    "id": "25",
+    "question": "When visiting a museum, which section do you head to first?",
+    "options": [
+      "The philosophical or historical exhibits",
+      "The literature and storytelling section",
+      "The exhibits focused on human experiences",
+      "The visual art and sculpture galleries"
+    ]
+  },
+  {
+    "id": "26",
+    "question": "How do you like to express your opinions or beliefs?",
+    "options": [
+      "Through well-reasoned essays or articles",
+      "Through storytelling and creative writing",
+      "Through open dialogues and conversations",
+      "Through visual art installations or performances"
+    ]
+  },
+  {
+    "id": "27",
+    "question": "What type of music resonates with you the most?",
+    "options": [
+      "Classical and instrumental compositions",
+      "Lyrically rich and emotionally charged songs",
+      "Music that reflects diverse cultures and emotions",
+      "Experimental and avant-garde music"
+    ]
+  },
+  {
+    "id": "28",
+    "question": "Which famous playwright do you admire?",
+    "options": [
+      "Jean-Paul Sartre",
+      "Tennessee Williams",
+      "Lorraine Hansberry",
+      "William Shakespeare"
+    ]
+  },
+  {
+    "id": "29",
+    "question": "When making a major decision, what do you prioritize?",
+    "options": [
+      "Rationality and logic",
+      "Passion and creativity",
+      "Empathy and human values",
+      "Aesthetic and artistic appeal"
+    ]
+  },
+  {
+    "id": "30",
+    "question": "How do you approach understanding different cultures?",
+    "options": [
+      "Studying their philosophies and beliefs",
+      "Exploring their literature and stories",
+      "Immersing yourself in their customs and traditions",
+      "Expressing cultural appreciation through art"
+    ]
+  },
+  {
+    "id": "31",
+    "question": "Which artistic movement captivates you the most?",
+    "options": ["Cubism", "Gothic Revival", "Abstract Expressionism", "Pop Art"]
+  },
+  {
+    "id": "32",
+    "question": "What do you enjoy discussing with friends?",
+    "options": [
+      "Ethical dilemmas and moral values",
+      "Favorite books and literary characters",
+      "Personal growth and emotions",
+      "Artistic inspirations and creative projects"
+    ]
+  },
+  {
+    "id": "33",
+    "question": "How do you prefer to learn new concepts?",
+    "options": [
+      "Through in-depth reading and research",
+      "Through storytelling and real-life examples",
+      "Through engaging conversations and group discussions",
+      "Through visual aids and demonstrations"
+    ]
+  },
+  {
+    "id": "34",
+    "question": "What type of theater production do you find most intriguing?",
+    "options": [
+      "Philosophical or thought-provoking plays",
+      "Dramatic and emotionally charged performances",
+      "Character-driven narratives with social themes",
+      "Visually innovative and avant-garde productions"
+    ]
+  },
+  {
+    "id": "35",
+    "question": "How do you like to spend your vacations?",
+    "options": [
+      "Exploring museums and historical sites",
+      "Reading books or writing creatively",
+      "Connecting with locals and their stories",
+      "Engaging in visual arts or performances"
+    ]
+  },
+  {
+    "id": "36",
+    "question": "What do you find most captivating about ancient civilizations?",
+    "options": [
+      "Their philosophical and intellectual contributions",
+      "The myths and stories that have survived through time",
+      "Insights into their daily lives and cultural practices",
+      "The artistic and architectural wonders they left behind"
+    ]
+  },
+  {
+    "id": "37",
+    "question": "How do you approach understanding complex societal issues?",
+    "options": [
+      "Analyzing root causes and proposing solutions",
+      "Telling stories to raise awareness and empathy",
+      "Engaging in dialogue to understand different perspectives",
+      "Expressing concerns through artistic activism"
+    ]
+  },
+  {
+    "id": "38",
+    "question": "Which type of writing style appeals to you?",
+    "options": [
+      "Analytical and persuasive writing",
+      "Creative and imaginative storytelling",
+      "Personal essays and reflective narratives",
+      "Poetic and metaphorical language"
+    ]
+  },
+  {
+    "id": "39",
+    "question": "When attending a cultural festival, what aspect do you most enjoy?",
+    "options": [
+      "Discussions and lectures on cultural topics",
+      "Literary readings and performances",
+      "Interactions with people from diverse backgrounds",
+      "Art exhibitions and live art demonstrations"
+    ]
+  },
+  {
+    "id": "40",
+    "question": "Which type of book cover would attract you the most?",
+    "options": [
+      "A minimalist, intellectual design",
+      "An artistic and visually striking cover",
+      "A cover featuring relatable characters",
+      "A cover with abstract and symbolic art"
+    ]
+  },
+  {
+    "id": "41",
+    "question": "How do you like to engage with history?",
+    "options": [
+      "Analyzing historical documents and writings",
+      "Reading historical novels and biographies",
+      "Exploring personal narratives and diaries",
+      "Admiring historical artworks and artifacts"
+    ]
+  },
+  {
+    "id": "42",
+    "question": "What do you enjoy discussing with your peers?",
+    "options": [
+      "Political ideologies and societal structures",
+      "Plot twists and character development in books",
+      "Personal growth and life experiences",
+      "Creative projects and artistic techniques"
+    ]
+  },
+  {
+    "id": "43",
+    "question": "Which of these historical events interests you the most?",
+    "options": [
+      "The Age of Enlightenment",
+      "The Romantic Era's cultural revolution",
+      "The Civil Rights Movement",
+      "The Renaissance and its impact on art"
+    ]
+  },
+  {
+    "id": "44",
+    "question": "How do you prefer to express your love for nature?",
+    "options": [
+      "Through philosophical reflections on the environment",
+      "Through poetry or literature inspired by nature",
+      "By participating in conservation efforts",
+      "Through visual art celebrating the natural world"
+    ]
+  },
+  {
+    "id": "45",
+    "question": "What type of documentaries do you enjoy watching?",
+    "options": [
+      "Thought-provoking and informative documentaries",
+      "Documentaries exploring the lives of artists and writers",
+      "Human interest documentaries focusing on individuals",
+      "Visually captivating and artistic documentaries"
+    ]
+  },
+  {
+    "id": "46",
+    "question": "What role do you naturally take on in a group setting?",
+    "options": [
+      "The critical thinker and problem solver",
+      "The storyteller and communicator",
+      "The mediator and empathetic listener",
+      "The artist or designer"
+    ]
+  },
+  {
+    "id": "47",
+    "question": "Which famous philosopher's ideas resonate with you?",
+    "options": [
+      "Immanuel Kant",
+      "Jean-Jacques Rousseau",
+      "Simone de Beauvoir",
+      "Friedrich Nietzsche"
+    ]
+  },
+  {
+    "id": "48",
+    "question": "How do you feel about exploring different cultures through their cuisine?",
+    "options": [
+      "Intrigued by the cultural significance of dishes",
+      "Drawn to the stories behind traditional recipes",
+      "Interested in connecting with people through food",
+      "Inspired to create food-related art or designs"
+    ]
+  },
+  {
+    "id": "49",
+    "question": "What type of stage production appeals to you?",
+    "options": [
+      "Mathematics and Science",
+      "Languages and Literature",
+      "Social Studies and History",
+      "Art and Creativity"
+    ]
+  },
+  {
+    "id": "50",
+    "question": "Which activities do you enjoy the most during your free time?",
+    "options": [
+      "Solving puzzles or building things",
+      "Reading books or writing stories",
+      "Participating in debates or discussions",
+      "Drawing, painting, or crafting"
+    ]
+  }
+]
