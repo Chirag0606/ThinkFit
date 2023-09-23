@@ -1,0 +1,66 @@
+.homepcontent {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.description {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* opacity: 0; */
+  transform: translateY(-20px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+.hometitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 37px;
+}
+
+.maincontent {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.careerimg {
+  margin-top: -60px;
+}
+
+/* NewHomePage.css */
+/* Existing styles remain the same */
+
+
+
+.student-members {
+  display: flex;
+  justify-content: center;
+  animation: fadeInUp 0.5s 0.6s ease-in-out;
+}
+
+/* NewHomePage.css */
+/* Existing styles remain the same */
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.rounded-button {
+  background-color: #000000; /* Green background color */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Rounded borders */
+  padding: 30px 100px;
+  cursor: pointer;
+  font-size: 25px;
+
+}
+
+.rounded-button:hover {
+  background-color: #160944; /* Darker green on hover */
+}

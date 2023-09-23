@@ -1,6 +1,6 @@
 .nav_color {
   height: 70px;
-  background-color: #212529;
+  background-color: #000000;
 }
 
 .navbar-collapse {
@@ -15,7 +15,11 @@
   margin-top: -25px;
   
 }
+.nav-item{
+  margin-top: 9px;
+  font-size: larger;
 
+}
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -26,7 +30,7 @@
   align-items: center;
   margin-bottom: 30px;
   font-weight: bolder;
-  color: white !important; /* Set text color to white */
+  color: rgb(255, 255, 255) !important; /* Set text color to white */
 }
 
 

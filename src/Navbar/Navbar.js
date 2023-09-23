@@ -30,9 +30,14 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li>
+              <li className="nav-item">
                 <Link className="nav-link active" to="/homepage">
                   Quiz
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/homepage">
+                  About Us
                 </Link>
 
               </li>
