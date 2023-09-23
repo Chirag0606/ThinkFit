@@ -40,7 +40,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/homepage">
+                <Link className="nav-link active" to="/about">
                   About Us
                 </Link>
               </li>
