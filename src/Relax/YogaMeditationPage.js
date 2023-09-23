@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import './YogaMeditationPage.css';
 import bellSound from './change.mp3'; // Replace with the correct path to your audio file
 
-
 const asanasData = [
   {
     name: 'Sukhasana',
@@ -25,30 +24,29 @@ function YogaMeditationPage() {
   const [currentAsanaIndex, setCurrentAsanaIndex] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
 
-// Inside the useEffect function
-useEffect(() => {
-  let interval;
+  // Inside the useEffect function
+  useEffect(() => {
+    let interval;
 
-  if (isRunning) {
-    interval = setInterval(() => {
-      setTimer((prevTimer) => prevTimer + 1);
+    if (isRunning) {
+      interval = setInterval(() => {
+        setTimer((prevTimer) => prevTimer + 1);
 
-      // Check if the timer is a multiple of 30 seconds and play the sound
-      if (timer % 30 === 0) {
-        setCurrentAsanaIndex((prevIndex) =>
-          prevIndex === asanasData.length - 1 ? 0 : prevIndex + 1
-        );
+        // Check if the timer is a multiple of 30 seconds and play the sound
+        if (timer % 30 === 0) {
+          setCurrentAsanaIndex((prevIndex) =>
+            prevIndex === asanasData.length - 1 ? 0 : prevIndex + 1
+          );
 
-        // Create an Audio element and play the sound
-        const audio = new Audio(bellSound);
-        audio.play();
-      }
-    }, 1000);
-  }
+          // Create an Audio element and play the sound
+          const audio = new Audio(bellSound);
+          audio.play();
+        }
+      }, 1000);
+    }
 
-  return () => clearInterval(interval);
-}, [timer, isRunning]);
-
+    return () => clearInterval(interval);
+  }, [timer, isRunning]);
 
   const handleStartButtonClick = () => {
     setIsRunning(true);
@@ -65,45 +63,46 @@ useEffect(() => {
 
   return (
     <div className="yoga-meditation-page">
-      <h1 className="page-title">
-      Explore a holistic approach to enhancing mental well-being through guided yoga asanas</h1>
-      <h2 className="page-title" >Follow the instructions for only 15 minutes / 900 Seconds everyday to attain calmness
-    </h2>
-      <div className="timer-container">
-        <div className="timer">
-          <strong>{timer} seconds</strong>
-        </div>
-        <div className="button-container">
-          {!isRunning && (
-            <button className="start-button" onClick={handleStartButtonClick}>
-              Start
-            </button>
-          )}
-          {isRunning && (
-            <div>
-              <button className="pause-button" onClick={handlePauseButtonClick}>
-                Pause
+      <div className="left-section">
+        <h1 className="page-title">
+          Explore a holistic approach to enhancing mental well-being through guided yoga asanas
+        </h1>
+        <h2 className="page-title">
+          Follow the instructions for only 15 minutes / 900 Seconds every day to attain calmness
+        </h2>
+        <div className="timer-container">
+          <div className="timer">
+            <strong>{timer} seconds</strong>
+          </div>
+          <div className="button-container">
+            {!isRunning && (
+              <button className="start-button" onClick={handleStartButtonClick}>
+                Start
               </button>
-              <button className="stop-button" onClick={handleStopButtonClick}>
-                Stop
-              </button>
-            </div>
-          )}
+            )}
+            {isRunning && (
+              <div>
+                <button className="pause-button" onClick={handlePauseButtonClick}>
+                  Pause
+                </button>
+                <button className="stop-button" onClick={handleStopButtonClick}>
+                  Stop
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </div>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-      <div className="asana-container">
-        <img
-          className="yoga-asana-image"
-          src={`./${asanasData[currentAsanaIndex].image}`}
-          alt={asanasData[currentAsanaIndex].name}
-        />
-        <div className="yoga-asana-name">
-          <strong>{asanasData[currentAsanaIndex].name}</strong>
+      <div className="right-section">
+        <div className="asana-container">
+          <img
+            className="yoga-asana-image"
+            src={`./${asanasData[currentAsanaIndex].image}`}
+            alt={asanasData[currentAsanaIndex].name}
+          />
+          <div className="yoga-asana-name">
+            <strong>{asanasData[currentAsanaIndex].name}</strong>
+          </div>
         </div>
       </div>
     </div>
