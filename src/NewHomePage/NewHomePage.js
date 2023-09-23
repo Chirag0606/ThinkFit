@@ -47,7 +47,7 @@ function NewHomePage() {
               className="rounded-button"
               onClick={() => navigateToPage("X")}
             >
-              X
+              Meditate
             </button>
           </div>
         </div>

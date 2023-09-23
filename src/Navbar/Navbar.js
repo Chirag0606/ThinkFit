@@ -34,7 +34,7 @@ export default function Navbar() {
                   Quiz
                 </Link>
               </li>
-              <li>
+              <li className="nav-item">
                 <Link className="nav-link active" to="/meditate">
                   Meditate
                 </Link>
