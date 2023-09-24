@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./NewHomePage.css";
+import Footer from "../Footer";
 
 function NewHomePage() {
   const [showPages, setShowPages] = useState(false);

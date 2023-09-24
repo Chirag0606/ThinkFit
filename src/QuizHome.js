@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import NewHomePage from "./NewHomePage/NewHomePage";
 import YogaMeditationPage from "./Relax/YogaMeditationPage";
+import About from "./About/About";
+import Footer from "./Footer";
 
 function QuizHome() {
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -79,6 +81,13 @@ function QuizHome() {
           />
           <Route
             exact
+            path="/about"
+            element={
+              <About />
+            }
+          />
+          <Route
+            exact
             path="/meditate"
             element={
               <YogaMeditationPage />
@@ -142,7 +151,8 @@ function QuizHome() {
 
         </Routes>
       </Router>
-    </div >
+      <Footer />
+    </div>
   );
 }
 
