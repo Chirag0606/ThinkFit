@@ -43,7 +43,7 @@ function NewHomePage() {
         </div>
 
         <div className="careerimg">
-          <img className="careerimg-link" src="shutter.png" alt="Background" />
+          <img className="careerimg-link" src="ss.jpg" alt="Background" />
         </div>
       </div>
     </>
