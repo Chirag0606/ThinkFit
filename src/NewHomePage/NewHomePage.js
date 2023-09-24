@@ -1,6 +1,7 @@
 // NewHomePage.js
 import React, { useState } from "react";
 import "./NewHomePage.css";
+import Footer from "../Footer";
 
 function NewHomePage() {
   const [showPages, setShowPages] = useState(false);

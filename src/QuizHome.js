@@ -9,6 +9,7 @@ import { useState } from "react";
 import NewHomePage from "./NewHomePage/NewHomePage";
 import YogaMeditationPage from "./Relax/YogaMeditationPage";
 import About from "./About/About";
+import Footer from "./Footer";
 
 function QuizHome() {
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -150,7 +151,8 @@ function QuizHome() {
 
         </Routes>
       </Router>
-    </div >
+      <Footer />
+    </div>
   );
 }
 
