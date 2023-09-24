@@ -1,5 +1,5 @@
-// NewHomePage.js
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./NewHomePage.css";
 
 function NewHomePage() {
@@ -17,12 +17,6 @@ function NewHomePage() {
 
   window.addEventListener("scroll", handleScroll);
 
-  const navigateToPage = (pageName) => {
-    // Implement the navigation logic here, e.g., using React Router or other routing methods
-    // For this example, we'll simply use a console.log statement to indicate the navigation.
-    console.log(`Navigating to ${pageName} page`);
-  };
-
   return (
     <>
       <div className="homepcontent">
@@ -37,18 +31,13 @@ function NewHomePage() {
             while responsibly engaging with the digital realm.
           </p>
           <div className="buttons-container">
-            <button
-              className="rounded-button"
-              onClick={() => navigateToPage("Quiz")}
-            >
+            {/* Use Link component for navigation */}
+            <Link to="/homepage" className="rouned-box">
               Quiz
-            </button>
-            <button
-              className="rounded-button"
-              onClick={() => navigateToPage("X")}
-            >
+            </Link>
+            <Link to="/meditate" className="rounded-box">
               Meditate
-            </button>
+            </Link>
           </div>
         </div>
 

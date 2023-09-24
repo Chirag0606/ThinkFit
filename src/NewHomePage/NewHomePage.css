@@ -44,23 +44,35 @@
 /* NewHomePage.css */
 /* Existing styles remain the same */
 
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 70px;
+/* NewHomePage.css */
+.rounded-box {
+  display: inline-block;
+  border-radius: 25px; /* Adjust the border-radius for roundness */
+  background-color: #007BFF; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Set the font size */
+  padding: 20px 90px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.rouned-box {
+  display: inline-block;
+  border-radius: 25px; /* Adjust the border-radius for roundness */
+  background-color: #007BFF; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Set the font size */
+  
+  padding: 20px 90px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.rounded-button {
-  background-color: #000000; /* Green background color */
-  color: white;
-  border: none;
-  border-radius: 10px; /* Rounded borders */
-  padding: 30px 100px;
+.rounded-box:hover {
+  background-color: #0056b3; /* Change color on hover */
   cursor: pointer;
-  font-size: 25px;
-
 }
 
-.rounded-button:hover {
-  background-color: #160944; /* Darker green on hover */
-}
