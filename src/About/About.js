@@ -11,7 +11,7 @@ export default function About() {
       </header>
 
       <section className="description">
-        We are a diverse team of students and an experienced professor,
+        We are a diverse team of students
         <br />
         Dedicated to creating innovative solutions for career guidance. Each
         member brings their unique skills and perspectives to the table.
@@ -74,7 +74,7 @@ export default function About() {
         <div className="member-box student-box">
           <img
             className="imgSize"
-            src="https://media.licdn.com/dms/image/D5603AQGUCE5hThM5Eg/profile-displayphoto-shrink_400_400/0/1689183263013?e=1697673600&v=beta&t=DLYpHkDKAKQD3NlfbcE6FVScF1ppsjw49k-bQwNb1fQ"
+            src="https://media.licdn.com/dms/image/C5603AQE2_6Zc9lqNXg/profile-displayphoto-shrink_400_400/0/1650292372293?e=1701302400&v=beta&t=wtYe02O4bYZwI-jf9ANEexJStaUBBpyxoxuQi0BwcVA"
             alt="Chirag Thakur"
           />
           <h2>
